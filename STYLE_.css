@@ -137,6 +137,14 @@ button:hover{
     width: 100px;
 }
 
-
+footer{
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: rgb(131, 126, 119);
+    background-color: rgb(109, 163, 179, 0.5);
+}
 
 
