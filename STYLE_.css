@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(253, 251, 249);
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://images.pexels.com/photos/6825703/pexels-photo-6825703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.weatherbox{
+    background-color: rgb(109, 163, 179, 0.7) ;
+    padding: 20px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0.6em;
+
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 2em;
+    width: 2em;
+    outline: none;
+    background-color: rgb(197, 228, 228);
+    /* color: black; */
+    cursor: pointer;
+    transition: 0.2s ease-in-out ;
+}
+
+button:hover{
+    background-color: rgb(129, 197, 197);
+}
+
+.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.4em; 
+    border-radius: 18px;
+    background-color: rgb(197, 228, 228);
+}
+
+.weather-cond{
+    text-transform: capitalize;
+}
+
+.temp{
+    font-size: 35px;
+} 
+
+/* Forecasting styles */
+.forecasting-button{
+    border-radius: 5%;
+    height: 40px;
+    width: 90px;
+}
+
+.forecasting-box{
+    background-color: rgb(109, 163, 179, 0.7) ;
+    padding: 20px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0.6em;
+}
+
+.flex-box-container{
+    flex-direction: row;
+    display: flex;
+}
+
+.flex-box{
+    background-color: rgb(142, 188, 188, 0.8);
+    padding: 10px;
+    height: 110px;
+    width: 110px;
+    margin: 5px;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.heading{
+    background-color: rgb(142, 188, 188, 0.8);
+    border-radius: 10px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.i{
+    font-size: 12px;
+    margin: 0;
+    margin-top: -15px;
+}
+
+#cityName{
+    text-transform: capitalize;
+}
+
+.weacon1{
+    height: 100px;
+    width: 100px;
+}
+.weacon2{
+    height: 100px;
+    width: 100px;
+}
+.weacon3{
+    height: 100px;
+    width: 100px;
+}
+.weacon4{
+    height: 100px;
+    width: 100px;
+}
+.weacon5{
+    height: 100px;
+    width: 100px;
+}
+.weacon6{
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
